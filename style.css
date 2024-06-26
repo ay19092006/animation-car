@@ -1,0 +1,14 @@
+.car{
+    position:relative;
+    animation: car 10s infinite;
+}
+@keyframes car {
+    from{
+        top: 500px;
+        left: -350px;
+    }
+    to{
+        top: 500px;
+        left: 1550px;
+    }
+}
